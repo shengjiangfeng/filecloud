@@ -4,6 +4,9 @@ import (
 	"github.com/BurntSushi/toml"
 )
 
+type Storage struct {
+}
+
 type Config struct {
 	WebAddr          string `toml:"WebAddr"`
 	WebIndex         string `toml:"WebIndex"`
