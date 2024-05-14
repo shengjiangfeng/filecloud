@@ -6,3 +6,9 @@ SaveFileMultiple = true                 # 文件是否保存为多份
 FileDiskTotal    = 50                   # 配置的网盘容量，单位 M
 Username         = "yddeng"             # 登陆用户名
 Password         = "123456"             # 登陆密码
+[StorageConfig]
+Provider = "s3"
+Bucket = ""
+AccessKey = ""
+AccessSecret = ""
+Endpoint = ""
